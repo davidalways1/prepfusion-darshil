@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+
+
+.navbar {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 93vw; */
+  background: linear-gradient(
+    180deg,
+    #eaeeff 0%,
+    rgba(234, 238, 255, 0.96875) 80%,
+    rgba(234, 238, 255, 0) 100%
+  );
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding: 0px 43px;
+  /* height: 80px; */
+  height: 14vh;
+  overflow: hidden;
+  z-index: 1;
+}
+.logo {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.navbar img {
+  width: 69px;
+  height: 65px;
+}
+
+.navbar .logo span #fusion {
+  color: #0069ff;
+  width: auto;
+  height: 55px;
+  font-family: "Handlee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 75px;
+}
+.navbar .logo span {
+  width: auto;
+  height: 55px;
+  font-family: "Handlee";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 75px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+}
+
+.navbar-no-underline {
+  text-decoration: none;
+}
+
+.login-button-no-underline {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 14px;
+  gap: 10px;
+  width: 73px;
+  height: 84px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.navbar button {
+  background: #0069ff;
+  border: 1px solid #17a2b8;
+  border-radius: 25px;
+  width: 120px;
+  height: 40px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.navbar .login-button:hover {
+  background-color: #17a2b8;
+}
